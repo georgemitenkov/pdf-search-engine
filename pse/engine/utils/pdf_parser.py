@@ -6,7 +6,7 @@ import requests
 from PyPDF2 import PdfFileWriter, PdfFileReader
 import io
 
-from pse.settings import API_KEY, FOLDER_ID
+from .config import API_KEY, FOLDER_ID
 
 logger = logging.getLogger(__name__)
 

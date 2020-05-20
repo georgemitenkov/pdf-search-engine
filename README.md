@@ -1,5 +1,19 @@
 # PDF search engine
 
+## To use
+Set up the following variables:
+```
+# Yandex storage
+ENDPOINT = "https://storage.yandexcloud.net"
+ACCESS_KEY = <your access key here>
+SECRET_KEY = <your secret key here>
+STORAGE_NAME = <your storage name here>
+
+# Yandex vision
+API_KEY = <your API key here>
+FOLDER_ID = <your folder ID here>
+```
+
 ## Docker
 The service is containerized into four containers, one for the [client side](#client-side), another one for the [server side](#server-side), and the last two for the [databases](#databases).
 

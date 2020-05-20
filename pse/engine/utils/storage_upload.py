@@ -1,11 +1,7 @@
 from botocore.client import Config
 from botocore.exceptions import ClientError
 import boto3
-
-ENDPOINT = "https://storage.yandexcloud.net"
-ACCESS_KEY = "Kh_5cDVkTRoSHivFUvUA"
-SECRET_KEY = "1VFz0tGxlDbEUxF4CtL29LE-JSuN5eyFfIfEWMM8"
-STORAGE_NAME = "pdf-storage"
+from .config import ACCESS_KEY, SECRET_KEY, STORAGE_NAME, ENDPOINT
 
 def init_client():
     session = boto3.Session(
