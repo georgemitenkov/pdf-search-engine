@@ -1,5 +1,7 @@
 # PDF search engine
 
+This is a web service that allows engineers involved in electronics design to extract text, images and tables from pdf data sheets.
+
 ## To use
 Set up the following variables:
 ```
